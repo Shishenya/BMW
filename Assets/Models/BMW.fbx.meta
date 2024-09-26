@@ -6,7 +6,117 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Take 001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BF32_tex
+    second: {fileID: 2100000, guid: ba51fa79299f19b4288e75f66ecb6aec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Engine_Material
+    second: {fileID: 2100000, guid: 2ebde245f5dff3f4fbd9eaa4dbf2f231, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gar_StG
+    second: {fileID: 2100000, guid: 561ad60469866234bb8c0ad99c6d2ab4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gar_alu
+    second: {fileID: 2100000, guid: fa32e04cb484bb540ba1b64f4742e1b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gar_cbs
+    second: {fileID: 2100000, guid: a0f8b7e5f95b83d4d869ab30eb9bc45d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gar_chr
+    second: {fileID: 2100000, guid: deeb4a08f80ab1a41875b170e7f0a591, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gar_fab
+    second: {fileID: 2100000, guid: 7a91c637341f0844f8aaf5681d265fdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gar_gum
+    second: {fileID: 2100000, guid: 05ee7de162b174043bb0cc3c498b712e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gar_kob
+    second: {fileID: 2100000, guid: 0bfccb24ae39f0d4ba8e2e6e375e07e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gar_lac
+    second: {fileID: 2100000, guid: fe865b76aee74644b8649f9473dbf596, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gar_p4b
+    second: {fileID: 2100000, guid: 1d01e179a8f8d4c4ab5e8d502288a6c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gar_sbs
+    second: {fileID: 2100000, guid: 8db6d4b87b149aa40bdf0b2c96f8ee2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gar_sib
+    second: {fileID: 2100000, guid: 27e64c2eef43c6d43bd8ca12853f5cb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gar_skl
+    second: {fileID: 2100000, guid: 2e00cd332041bfb47a87239a35c5837c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gar_vbl
+    second: {fileID: 2100000, guid: 0f73c071124273a4ea8ec6e2341c2fff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gar_voy
+    second: {fileID: 2100000, guid: befb675fb2a9c7d49a426b5afd6bbc86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kuzov_Blue
+    second: {fileID: 2100000, guid: 4ecbc805b34e5794a94d851b081014ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M4xNME_Carbon1.001
+    second: {fileID: 2100000, guid: a54c9447b87aa2747bdc5d14fadf429e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M4xNME_Paint
+    second: {fileID: 2100000, guid: d73c56a69d2234747a5fa6d716a77e24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M4xNME_Paint2.002
+    second: {fileID: 2100000, guid: 7914fad91fafe8344a7281364ab74026, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #5
+    second: {fileID: 2100000, guid: 7e46cb80625e5964b9386fa3226a55eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_metal
+    second: {fileID: 2100000, guid: 84043c03707398e4b99cf79343bb7497, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
