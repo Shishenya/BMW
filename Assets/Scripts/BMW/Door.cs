@@ -3,6 +3,7 @@ using Project.Enums;
 using DG.Tweening;
 using Model.InputModel;
 using Model.Useable;
+using UnityEngine.EventSystems;
 
 namespace BWM.Model
 {
@@ -19,7 +20,7 @@ namespace BWM.Model
         [Tooltip("Позиция в открытом виде")]
         [SerializeField] private Vector3 _rotationOpenAngle;
 
-        private MouseInput _mouseInput= null;
+        private MouseInput _mouseInput = null;
         private readonly float _durationAnimation = 1f;
         private MeshCollider _collider = null;
 
