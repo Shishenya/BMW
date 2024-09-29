@@ -14,6 +14,8 @@ namespace Model.OutlineEffect
         private Outline _outline;
         private MouseOver _mouseOver;
 
+        private readonly int _buttonRotation = 1;
+
         private void Awake()
         {
             _outline = GetComponent<Outline>();
@@ -43,7 +45,7 @@ namespace Model.OutlineEffect
         /// </summary>
         private void OutlineEnable()
         {
-            if (_outline)
+            if (_outline && !NowRotateCamera)
                 _outline.enabled = true;
         }
 
@@ -55,5 +57,12 @@ namespace Model.OutlineEffect
             if (_outline)
                 _outline.enabled = false;
         }
+
+        private void Update()
+        {
+            if (NowRotateCamera && _outline) _outline.enabled = false;
+        }
+
+        private bool NowRotateCamera { get => Input.GetMouseButton(_buttonRotation); }
     }
 }
